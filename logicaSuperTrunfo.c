@@ -7,40 +7,35 @@
 
 int main() {
         // Definição das variáveis para armazenar as propriedades das cidades
-Estado: A
-Codigo da Carta:A01
-Nome da Cidade: Rio de Janeiro
-População: 6748000 (estimativa 2023)
-Área: 1.221 km²
-PIB em reais: R$ 409,7 bilhões (IBGE 2020)
-Número de pontos turísticos: 96 pontos principais (estimativa, considerando atrações icônicas)
+char Estado1[3] ="A";
+char CodigoCarta1[4] ="A01";
+char Nome1Cidade[30]= "Rio de Janeiro";
+int População1 = 6748000 ;
+float Area1: 1.221;
+float PIB1  =  409,7; // BILHOES
+int Numeropontosturisticos1 = 96;
 
-codigo da carta:A02
-nome da cidade:Niteroi
-População: 520.563 habitantes (estimativa 2023)
-Área: 133,9 km²
-PIB em reais: R$ 24,7 bilhões (IBGE 2020)
-Número de pontos turísticos: Aproximadamente 15 principais pontos turísticos
-
-
-codigo da carta :A03
-nome da cidade:Petropolis
-População: 310.102 habitantes (estimativa 2023)
-Área: 795,8 km²
-PIB em reais: R$ 11,9 bilhões (IBGE 2020)
-Número de pontos turísticos: Aproximadamente 20 principais pontos turísticos
+char codigocarta = "A02";
+char nomecidade = "Niteroi";
+int População = 520563; 
+float Area = 133,9; 
+float PIB = 24,7; //BILHOES
+int Numeropontosturisticos = 15;
 
 
-codigo da carta:A04
-nome da cidade:angra dos reis
-População: 167.434 habitantes (Censo 2022) 
-IBGE
-Área: 813,420 km² 
-IBGE
-PIB em reais: R$ 11194244230,00 (2021) 
-CIDADES IBGE
-Número de pontos turísticos:aproximadamente 30 pontos turisticos
+char codigocarta = "A03";
+char nomecidade = Petropolis;
+int População: 310102 ;
+float Area: 795,8; 
+float PIB =  11.9; //bilhõe
+int Numeropontosturisticos = 20;
 
+char codigocarta= "A04";
+char nomecidade= angra dos reis
+int Populacao= 167.434;   
+float Area: 813.420;  
+float PIB  =  11194244230;  
+int Numeropontosturisticos =  30;
 
 
 
